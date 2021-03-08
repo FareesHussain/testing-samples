@@ -5,7 +5,7 @@ android {
     buildToolsVersion rootProject.buildToolsVersion
     defaultConfig {
         applicationId "com.example.android.testing.espresso.DataAdapterSample"
-        minSdkVersion 14
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -45,4 +45,8 @@ dependencies {
     testImplementation 'androidx.test.ext:junit:' + rootProject.extJUnitVersion;
     testImplementation 'androidx.test.espresso:espresso-core:' + rootProject.espressoVersion;
     testImplementation 'org.robolectric:robolectric:' + rootProject.robolectricVersion
+
+    // UiAutomator Testing
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:' + rootProject.uiAutomatorVersion;
+    androidTestImplementation 'org.hamcrest:hamcrest-integration:1.3'
 }

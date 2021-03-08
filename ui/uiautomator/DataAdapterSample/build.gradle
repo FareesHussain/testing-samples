@@ -31,4 +31,5 @@ ext {
     runnerVersion = "1.4.0-alpha04"
     espressoVersion = "3.4.0-alpha04"
     robolectricVersion = "4.5.1"
+    uiAutomatorVersion = "2.2.0"
 }
